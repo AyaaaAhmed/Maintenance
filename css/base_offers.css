@@ -1,0 +1,329 @@
+/* Start My Colors 
+
+Orange : #F99932;
+
+
+
+// End My Colors */
+
+
+
+/* Start Main Rules */
+
+.row
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Arimo', sans-serif;
+}
+
+/* End Main Rules */
+
+/* Start My Style */
+.offers
+{
+    background: #0c59a9;
+    padding: 50px 0;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    padding-left: 100px;
+    font-family: 'Oswald', sans-serif;
+}
+.neon
+{
+    font-size: 40px;
+    font-weight: 600;
+    font-size: 60px;
+    color: rgba(225,225,225,.1);
+    background: #d66018;
+    background-repeat: repeat-x;
+    -webkit-background-clip:text;
+    animation: animate 15s linear infinite;
+}
+.anth
+{
+    
+}
+@keyframes animate{
+    0%{
+        background-position: left 0px top 10px;
+    }
+    40%{
+        background-position: left 800px top 10px;
+    }
+}
+.lgg
+{
+   min-height: 500px;
+}
+
+.midd
+{
+    min-height: 350px;
+}
+
+.customer
+{
+    background: #E9ECEF;
+}
+.cust-h2
+{
+    font-size: 40px;
+    padding: 12px 0 10px 0;
+}
+.color2
+{
+    background: none;
+    border: 1px solid #ef2746;
+}
+.color2:hover , .color2:focus
+{
+    background: #ef2746;
+    border: 1px solid #07889B;
+    -webkit-transition: color 0.3s ease-in, background 0.3s ease-in;
+    transition: color 0.3s ease-in, background 0.3s ease-in;
+    color: #fff;
+}
+
+
+
+.footer
+{
+    margin: 50px 0;
+}
+.lnav
+{
+    background: #333;
+    padding-top: 30px;
+}
+.lnav h5
+{
+    color: #fff;
+}
+
+/* End My Style */
+
+
+/* Start OverWrite Bootstrap */
+
+/*
+.navbar
+{
+    background: #07889B;
+}
+*/
+.card-title
+{
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 5px;
+    font-size: 35px;
+}
+.card-text
+{
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 5px;
+}
+.color
+{
+    background: #07889B;
+    color: #fff;
+}
+.color:hover
+{
+    color: #E37222;
+}
+.card-header
+{
+    font-size: 30px;
+    background: #07889B;
+    color: #fff;
+    
+}
+.headd
+{
+    background: #ef2746;
+}
+.jumbotron
+{
+    padding-bottom: 160px;
+    margin-bottom: 10px; !important
+    padding-top: 100px;
+}
+
+.popp
+{
+    height: 200px;
+}
+
+
+/* End OverWrite Bootstrap */
+
+/* Media Query */
+
+@media (max-width: 576px)
+{
+
+}
+
+@media (min-width: 576px) { 
+
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+   
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+    
+}
+/* Media Query */
+
+
+
+
+
+
+
+ .footer ul {
+    list-style: none;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height 
+and float them to left and set its border and border-radius.
+*/
+ .footer ul .social {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #D8E2DC;
+    float: left;
+    transition: all 0.5s ease;
+}
+
+/* Style the icons by setting its color and margin-top value to 20px 
+to align it properly */
+ .footer ul .social .fa {
+    color: #D8E2DC;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+
+/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+to icons for glowing effect and use transition property for smooth transition effect. */
+/*facebook*/
+ .footer ul .social:hover.facebook {
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+ .footer ul .social:hover .fa-facebook {
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+/*twitter*/
+ .footer ul .social:hover.twitter {
+    border: 5px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+ .footer ul .social:hover .fa-twitter {
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+/* instagram */
+ .footer ul .social:hover.instagram {
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+ .footer ul .social:hover .fa-instagram {
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+/* google */
+ .footer ul .social:hover.google {
+    border: 5px solid #dd4b39;
+    box-shadow: 0 0 15px #dd4b39;
+    transition: all 0.5s ease;
+}
+
+ .footer ul .social:hover .fa-google {
+    color: #dd4b39;
+    text-shadow: 0 0 15px #dd4b39;
+    transition: all 0.5s ease;
+}
+
+/* whatsapp */
+ .footer ul .social:hover.whatsapp {
+    border: 5px solid #4dc247;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+}
+
+ .footer ul .social:hover .fa-whatsapp {
+    color: #4dc247;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 640px){
+     {
+        width: 350px;
+    }
+     .footer ul .social{
+        margin-top: 10px;
+    }
+     .footer ul .social.google{
+        margin-left: 60px;
+    }
+}
+
+
+@media screen and (max-width: 340px){
+     {
+        width: 150px;
+    }
+     .footer ul .social{
+        margin:15px;
+    }
+     .footer ul .social.google{
+        margin-left: 15px;
+    }
+    .footer ul .social.whatsapp
+    {
+        margin-left: 65px;
+    }
+}
+
+
+

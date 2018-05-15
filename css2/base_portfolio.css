@@ -1,0 +1,332 @@
+/* Start Main Rules */
+
+.row
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Arimo', sans-serif;
+}
+
+/* End Main Rules */
+
+.navbarHeight
+{
+    width: 154px !important;
+}
+/* Style for Card */
+.staff span
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: -10px;
+}
+.card
+{
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 7px 10px -1px rgba(135,135,135,1);
+    -moz-box-shadow: 0px 7px 10px -1px rgba(135,135,135,1);
+    -o-box-shadow: 0px 7px 10px -1px rgba(135,135,135,1);
+    box-shadow: 0px 7px 10px -1px rgba(135,135,135,1);
+    border: none;
+    margin-right: 0;
+    border-radius: 0.75rem;
+    width: 16rem;
+    background-color: #ebebeb26;
+}
+
+/* Start Resize Card */
+
+.lgg 
+{
+    height: 650px;
+}
+
+.smaller
+{
+    height: 380px;
+}
+.navbar
+{
+    position: fixed;
+}
+/* End Resize Card */
+
+/* End Style Card */
+
+/* Slider Style */
+
+.carousel-inner img
+{
+    background-size: cover;
+    height: 100%;
+}
+.carousel-inner
+{
+    height: 600px;
+    margin-bottom: 30px;    
+    background-size: cover;
+}
+
+
+.carousel-item
+{
+    height: 100%;
+}
+
+/* End Slider Style */
+
+/* Start Content style */
+
+.content
+{
+    padding-top: 20px;
+    margin: 0 20px;
+}
+
+.content h1:after
+{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 48px;
+    background-color: #cb2848;
+    margin: 0 auto;
+    margin-top: 7px;
+}
+/* End Content Style */
+
+/* Footer Style */
+
+.lnav
+{
+    background: #333;
+    padding-top: 30px;
+}
+
+.lnav h5
+{
+    color: #fff;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height 
+and float them to left and set its border and border-radius.
+*/
+.footer ul .social {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #D8E2DC;
+    float: left;
+    transition: all 0.5s ease;
+}
+
+/* Style the icons by setting its color and margin-top value to 20px 
+to align it properly */
+.footer ul .social .fa {
+    color: #D8E2DC;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+
+/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+to icons for glowing effect and use transition property for smooth transition effect. */
+/*facebook*/
+.footer ul .social:hover.facebook {
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+.footer ul .social:hover .ff {
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+/*twitter*/
+.footer ul .social:hover.twitter {
+    border: 5px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+.footer ul .social:hover .tt {
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+/* instagram */
+.footer ul .social:hover.instagram {
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+.footer ul .social:hover .ii {
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+
+
+/* whatsapp */
+.footer ul .social:hover.whatsapp {
+    border: 5px solid #f00;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+}
+
+.footer ul .social:hover .yy {
+    color: #f00;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 640px){
+    {
+        width: 350px;
+    }
+    .footer ul .social{
+        margin-top: 10px;
+    }
+    .footer ul .social.google{
+        margin-left: 60px;
+    }
+}
+
+
+@media screen and (max-width: 340px){
+    {
+        width: 150px;
+    }
+    .footer ul .social{
+        margin:15px;
+    }
+    .footer ul .social.google{
+        margin-left: 15px;
+    }
+    .footer ul .social.whatsapp
+    {
+        margin-left: 65px;
+    }
+}
+
+
+
+
+/* End Footer style */
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width : 992px) {
+    .animated {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+    .lgg
+    {
+        height: 0;
+    }
+    
+}
+
+@media (min-width: 576px) { 
+    
+  
+}
+@media (max-width: 768px)
+{
+    .card
+    {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) { 
+    .card
+    {
+        min-height: 573px;
+    }
+    
+    
+}
+
+@media (min-width: 992px) {
+  
+    .card.lgg 
+    {
+        height: 650px;
+    }
+
+    .card.smaller
+    {
+        height: 380px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .card
+    {
+        width: 18rem;
+      
+    }
+     
+}
+
+
+
+.lgg 
+{
+    min-height: 600px;
+}
+
+.smaller
+{
+    min-height: 380px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */

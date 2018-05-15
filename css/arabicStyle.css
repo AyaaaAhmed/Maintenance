@@ -1,0 +1,85 @@
+body
+{
+    direction: rtl;
+}
+
+@media(max-width:991px)
+{
+    .navbar .navbar-brand img
+    {
+        float: left;
+    }
+    header .content
+    {
+        margin-right: 50px;
+    }
+    footer .brand
+    {
+        margin-right: 25%;
+    }
+    .dropdown-item
+    {
+        font-size: 19px!important;
+        width: 119px !important;
+    }
+}
+
+
+.services  .card-block
+{
+    min-height: 205px !important;
+}
+
+
+header .content
+{
+    margin-right: 85px;
+}
+
+
+@media (max-width: 1200px)
+{
+    .services .serv1 .card-block
+    {
+        margin-top: -250px;
+    }
+
+    .services .serv2 .card-block
+    {
+        margin-top: -320px;
+    }
+
+    .services .serv3 .card-block
+    {
+        margin-top: -273px;
+    }
+    .services .serv4 .card-block
+    {
+        margin-top: -298px;
+    }
+    .services .card h4
+    {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) 
+{
+    .services .card .card-block
+    {
+        margin-top: 0px;
+    }
+}
+
+
+.forms .ginger-module-inputHandlerGhost
+{
+        opacity: 0!important;
+
+}
+
+
+
+
+
+

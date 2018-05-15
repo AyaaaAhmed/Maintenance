@@ -1,0 +1,443 @@
+/* Start My Colors 
+
+Orange : #F99932;
+
+
+
+// End My Colors */
+
+
+
+/* Start Main Rules */
+
+.row
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Arimo', sans-serif;
+}
+
+/* End Main Rules */
+
+/* Start My Style */
+.offers
+{
+    background: #092d53;
+    padding: 50px 0;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    padding-left: 100px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 110px;
+}
+.neon
+{
+    font-size: 40px;
+    font-weight: 600;
+    font-size: 60px;
+    color: rgba(225,225,225,.1);
+    background: #d66018;
+    background-repeat: repeat-x;
+    -webkit-background-clip:text;
+    animation: animate 15s linear infinite;
+}
+.anth
+{
+    
+}
+@keyframes animate{
+    0%{
+        background-position: left 0px top 10px;
+    }
+    40%{
+        background-position: left 800px top 10px;
+    }
+}
+.lgg
+{
+   min-height: 500px;
+}
+.company
+{
+    overflow: hidden;
+    padding: 60px 0;
+}
+.midd
+{
+    min-height: 350px;
+}
+.customer
+{
+    background: #E9ECEF;
+    overflow: hidden;
+    padding: 60px 0;
+}
+.cust-h2
+{
+    font-size: 40px;
+    padding: 12px 0 10px 0;
+}
+.color2
+{
+    background: none;
+    border: 1px solid #ef2746;
+}
+.color2:hover , .color2:focus
+{
+    background: #ef2746;
+    border: 1px solid #07889B;
+    -webkit-transition: color 0.3s ease-in, background 0.3s ease-in;
+    transition: color 0.3s ease-in, background 0.3s ease-in;
+    color: #fff;
+}
+
+
+
+.footer
+{
+    margin: 50px 0;
+}
+.lnav
+{
+    background: #333;
+    padding-top: 30px;
+}
+.lnav h5
+{
+    color: #fff;
+}
+
+/* End My Style */
+
+
+/* Start OverWrite Bootstrap */
+
+/*
+.navbar
+{
+    background: #07889B;
+}
+*/
+.card
+{
+    border-radius: 0.76rem;
+}
+.card-body
+{
+    padding: 20px;
+}
+.card-title
+{
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 5px;
+    font-size: 35px;
+}
+.card-text
+{
+    border-bottom: 1px solid #F0F0F0;
+    padding-bottom: 5px;
+}
+.color
+{
+    background: #07889B;
+    color: #fff;
+}
+.color:hover
+{
+    color: #E37222;
+}
+.card-header
+{
+    font-size: 30px;
+    background: #07889B;
+    color: #fff;
+    
+}
+.headd
+{
+    background: #ef2746;
+}
+.jumbotron
+{
+    padding-bottom: 160px;
+    margin-bottom: 10px; !important
+    padding-top: 100px; !important
+}
+
+.popp
+{
+    height: 200px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+footer .site-map
+{
+    padding: 20px 0;
+    background-color: #092d53;
+    border-top: 8px solid #5b5f6a;
+    color: #FFF;
+}
+
+footer .site-map .map
+{
+    margin-top: 20px;
+}
+footer .site-map .map p
+{
+    display: inline;
+    margin-top: -5px;
+    font-size: 12px;
+}
+
+footer .site-map ul
+{
+    margin-bottom: 0;
+}
+
+footer .site-map ul li
+{
+    display: inline-block;
+    cursor: pointer;
+}
+footer .site-map ul li span
+{
+    margin: 10px;
+}
+footer .brand
+{
+    width: 50%;
+}
+@media (max-width: 575px) 
+{
+    footer .site-map h5
+    {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+/* End OverWrite Bootstrap */
+
+/* Media Query */
+
+@media (max-width: 576px)
+{
+    .card
+    {
+        margin-bottom: 10px;
+    }
+    .offers
+    {
+       padding-left: 27px 
+    }
+}
+
+@media (min-width: 576px) { 
+
+    .card
+    {
+        margin-bottom: 10px;
+    }
+    .offers
+    {
+        padding-left: 50px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .card
+    {
+        margin-bottom: 10px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+   
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+    
+}
+/* Media Query */
+
+
+
+
+
+
+
+ .footer ul {
+    list-style: none;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height 
+and float them to left and set its border and border-radius.
+*/
+ .footer ul .social {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #D8E2DC;
+    float: left;
+    transition: all 0.5s ease;
+}
+
+/* Style the icons by setting its color and margin-top value to 20px 
+to align it properly */
+ .footer ul .social .fa {
+    color: #D8E2DC;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+
+/* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
+to icons for glowing effect and use transition property for smooth transition effect. */
+/*facebook*/
+ .footer ul .social:hover.facebook {
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+ .footer ul .social:hover .ff {
+    color: #3b5998;
+    text-shadow: 0 0 15px #3b5998;
+    transition: all 0.5s ease;
+}
+
+/*twitter*/
+ .footer ul .social:hover.twitter {
+    border: 5px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+ .footer ul .social:hover .tt {
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+}
+
+/* instagram */
+ .footer ul .social:hover.instagram {
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+ .footer ul .social:hover .ii {
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+}
+
+
+
+/* whatsapp */
+ .footer ul .social:hover.whatsapp {
+    border: 5px solid #f00;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+}
+
+ .footer ul .social:hover .yy {
+    color: #f00;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 640px){
+     {
+        width: 350px;
+    }
+     .footer ul .social{
+        margin-top: 10px;
+    }
+     .footer ul .social.google{
+        margin-left: 105px;
+    }
+}
+
+
+@media screen and (max-width: 340px){
+     {
+        width: 150px;
+    }
+     .footer ul .social{
+        margin:15px;
+    }
+     .footer ul .social.google{
+        margin-left: 15px;
+    }
+    .footer ul .social.whatsapp
+    {
+        margin-left: 65px;
+    }
+    .footer ul .social.twitter{
+        margin-left: 105px;
+    }
+}
+
+
+
+
